@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Water4Adv_Lake
+  m_Shader: {fileID: 4800000, guid: 976a7dd4d17d46243b7150a8b799d610, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 8aa1572f50c42694c8d1751fbe716378, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 1, y: 1}
+    - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShoreTex:
+        m_Texture: {fileID: 2800000, guid: 1023e1285be027942bcbef2f25646cdf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 1, y: 1}
+    m_Floats:
+    - _Ambient: 1
+    - _Displacement: 0.27863377
+    - _DisplacementTiling: 18.586807
+    - _FadeExp: 0.91503274
+    - _FoamWaveDependency: 0.10205479
+    - _FresnelPower: 1.7931035
+    - _FresnelScale: 0.5
+    - _GerstnerIntensity: 1.6
+    - _HeightDisplacement: 3.2722514
+    - _InvFade: 0.628783
+    - _InvFadeDepthFade: 0.07197756
+    - _InvFadeFoam: 0.1217
+    - _NormalsDisplacement: 0
+    - _ReflDistort: 0.9267696
+    - _RefrDistort: 1.4393286
+    - _Shininess: 310
+    - _ShoreTiling: 56.862743
+    - _Speed: 0.4137931
+    - _WaterDepth: 40.98077
+    - _WaveCapsAmount: 0.18275861
+    - _WaveFoamDistort: 0.27931035
+    - _WaveScale: 0.046289656
+    m_Colors:
+    - WaveSpeed: {r: 1.086165, g: 4.440575, b: 12.105146, a: -3.0206447}
+    - _AnimationDirection: {r: 1, g: 2, b: 1, a: -1}
+    - _AnimationTiling: {r: 0.04, g: 0.01, b: 0.04, a: 0.02}
+    - _BaseColor: {r: 0.14269778, g: 0.1544118, b: 0.115808845, a: 0.2901961}
+    - _BumpDirection: {r: 5, g: 5, b: 5, a: -5}
+    - _BumpMap_ST: {r: 1, g: 1, b: 0, a: 0}
+    - _BumpTiling: {r: 0.12, g: 0.07, b: 0.08, a: 0.06}
+    - _Color: {r: 0.8602941, g: 0.20874783, b: 0.20874783, a: 1}
+    - _DepthColor: {r: 0.027511697, g: 0.14179105, b: 0.13226777, a: 0.4627451}
+    - _DepthColorFade: {r: 0.8880597, g: 0.27834705, b: 0.44463244, a: 0.22352941}
+    - _Displacement: {r: 6.6371665, g: 20.353983, b: -1, a: -0.681416}
+    - _DisplacementXz: {r: 0.6499999, g: -2.9203715, b: 1.6599998, a: -3.9363046}
+    - _DistortParams: {r: 2, g: 1.03, b: 11, a: -0.5}
+    - _Extinction: {r: 4.5, g: 75, b: 300, a: 1}
+    - _Foam: {r: 0.4, g: 0.5, b: 0, a: 0}
+    - _FoamWaveParams: {r: 0, g: 0.24918434, b: 3.3395782, a: 1}
+    - _Fresnel_ST: {r: 1, g: 1, b: 0, a: 0}
+    - _GAmplitude: {r: 0.0014, g: 0.0076, b: 0.00175, a: 0.00225}
+    - _GDirectionAB: {r: 0.5, g: 0.3, b: -0.2, a: 0.1}
+    - _GDirectionCD: {r: 0.7, g: -0.6, b: 0.7, a: -0.2}
+    - _GFrequency: {r: 0.001, g: 0.0038, b: 0.0059, a: 0.006}
+    - _GSpeed: {r: -0.1, g: 0.1, b: 0.1, a: 0.1}
+    - _GSteepness: {r: 3, g: 2, b: 3, a: 2}
+    - _HorizonColor: {r: 0.052907113, g: 0.24486735, b: 0.2835821, a: 1}
+    - _InvFadeParemeter: {r: 0.2, g: 0.15, b: 0.04, a: 0}
+    - _MainTex_ST: {r: 1, g: 1, b: 0, a: 0}
+    - _ReflectionColor: {r: 0.54303634, g: 0.7525594, b: 0.7941176, a: 1}
+    - _ReflectionTex_ST: {r: 1, g: 1, b: 0, a: 0}
+    - _ReflectiveColorCube_ST: {r: 1, g: 1, b: 0, a: 0}
+    - _ReflectiveColor_ST: {r: 1, g: 1, b: 0, a: 0}
+    - _RefrColor: {r: 0.5233905, g: 0.9477612, b: 0.9121496, a: 1}
+    - _RefrColorDepth: {r: 0.050066825, g: 0.23134327, b: 0.17049524, a: 1}
+    - _RefractionFog: {r: 0.50543475, g: 0.50543475, b: 0.50543475, a: 0.5}
+    - _RefractionTex_ST: {r: 1, g: 1, b: 0, a: 0}
+    - _ShoreColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShorePerturbation: {r: 0, g: 0, b: 0, a: 0}
+    - _ShoreTiling: {r: 1, g: 1, b: 0.1, a: 0.1}
+    - _SpecularColor: {r: 0.9044118, g: 0.9044118, b: 0.9044118, a: 1}
+    - _UnderwaterColor: {r: 0.6950323, g: 0.89552236, b: 0.7502397, a: 1}
+    - _WaveOffset: {r: 1, g: 1, b: -0.01, a: -0.01}
+    - _WaveScale4: {r: 0.1, g: 0.1, b: 0.01, a: 0.01}
+    - _WorldLightDir: {r: 0.48276934, g: -0.86577636, b: -0.13177742, a: 0}

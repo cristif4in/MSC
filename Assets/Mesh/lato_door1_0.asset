@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: lato_door1_0
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 84
+    topology: 0
+    firstVertex: 0
+    vertexCount: 40
+    localAABB:
+      m_Center: {x: 832.23145, y: 17.775719, z: 1681.1005}
+      m_Extent: {x: 0.53692627, y: 1.1120777, z: 0.529541}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 1
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 0
+    m_VertexCount: 0
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata: 
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 120
+      m_Range: 2.2193298
+      m_Start: -1.1096802
+      m_Data: b46a08d2430b3430d0794c2964d9fc2c2b08d243bd2510c57d4c2934bffd039db7349b96cdbfc87d84785cbefd039d4788c796cdefc67d4bb359befdbe3c28e16eb1f1dfc08712eef6ffff039dc7944296cd1fc57d4c2934bffdc3c327799c4e0e50b682918cdc5b02b46a78c5c80b3470457892c70900003be69725701416f06c7a5902777b00b46a08d2430b34c0b282203dd45b02578427799c000030d07984786cd9fc652b18c9c8bd2530d0794bb369d9fccfa6972570b707e0cb8312ee161bff2c2b08d243bd2530d0794c2964d9fc6edcb7349be5db4fab86578cbc40038bdc4788c7e5db3f3c7c92c7e9e4000d7c28e16effffbf637e590247610151dcc79442f3db4fab86203db44003b46a78c5c80b3430d07984786cd9fc8bdc4788c7e5db5fb682918cdc5b02
+      m_BitSize: 20
+    m_UV:
+      m_NumItems: 160
+      m_Range: 2.7177734
+      m_Start: -0.9951172
+      m_Data: 2b9a8a9221bae8ffffa28b8a92b1a2e9ffff6d4baacc49a5e54fc56d4bfe544ca5a5ca9c6d4bb64447a5654b746d4bc2bc44a525cc4bf7e5b54407711dcc4bf7e5c1bc04715d4b74f7e5a9cc09719dca9cf7e5fd540c71dd4fc50d798af8ae9db2a828da298bf8de90a7a8281ec889f8ee819ca8282e1789f8ee7291a82894b502acae773500007a5703ac4e592b0000971302ac7e39210000a87101ac8e1a170000beda4abc4fc9ac0411beda4a1041c9acc4fb2b9a8a9221bae8ffffa28b8a92b1a2e9ffff6d4baacc49a5e54fc56d4bfe544ca5a5ca9c6d4bb64447a5654b746d4bc2bc44a525cc4bf7e5b54407711dcc4bf7e5c1bc04715d4b74f7e5a9cc09719dca9cf7e5fd540c71dd4fc50d798af8ae9db2a828da298bf8de90a7a8281ec889f8ee819ca8282e1789f8ee7291a82894b502acae773500007a5703ac4e592b0000971302ac7e39210000a87101ac8e1a170000beda4abc4fc9ac0411beda4a1041c9acc4fb
+      m_BitSize: 18
+    m_Normals:
+      m_NumItems: 80
+      m_Range: 1.999973
+      m_Start: -0.99998546
+      m_Data: 8000800080008000637f637f637f637f637f637f637f637f9c7f9c7f9c7f9c7f9c7f9c7f9c7f9c7f0087018e049d0174016c00780082039cff7ffe71ff7fff81ff82ff80ff7dfd9780ff80ff80ff80ff
+      m_BitSize: 8
+    m_Tangents:
+      m_NumItems: 80
+      m_Range: 1.1837549
+      m_Start: -0.18375489
+      m_Data: fa28fa28fa28fa28fa28fa28fa28fa28fa28fa28fa28fa28fa28fa28fa28fa28fa28fa28fa28fa2835ff41fe59f914fe07fc1aff2cff57f928ff40fd28ff25ff24ff26ff2bff00fbfa27fa27fa27fa27
+      m_BitSize: 8
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 40
+      m_Data: f00f8077f8
+      m_BitSize: 1
+    m_TangentSigns:
+      m_NumItems: 80
+      m_Data: ffffffffffbfeaeebbff
+      m_BitSize: 1
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 84
+      m_Data: 402000434014067114c84120c9a12488b2244ce3304f033d0c143d520449534455167555d84561d9a56598b6655ce7715f077e1c187e212886e24896267996
+      m_BitSize: 6
+    m_UVInfo: 85
+  m_LocalAABB:
+    m_Center: {x: 0.000091552734, y: 0.04925537, z: -0.000015258789}
+    m_Extent: {x: 0.067108154, y: 0.5817261, z: 1.1096649}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 1

@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: facility_steel_platform
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 6
+    topology: 0
+    firstVertex: 0
+    vertexCount: 4
+    localAABB:
+      m_Center: {x: -1513.4951, y: 5.1732473, z: 1346.2054}
+      m_Extent: {x: 3.1290894, y: 4.7683716E-07, z: 3.1429443}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes:
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 1
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer:
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 0
+    m_VertexCount: 0
+    m_Channels: []
+    m_DataSize: 0
+    _typelessdata:
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 12
+      m_Range: 31.377808
+      m_Start: -5.947876
+      m_Data: ffffff27683276bc2a765dcd41000077bc2abeffff00000077bc2a765dcde5673276bc2a
+      m_BitSize: 24
+    m_UV:
+      m_NumItems: 16
+      m_Range: 8.6875
+      m_Start: -3.8710938
+      m_Data: a5b2fdffffff905603000000905603ffffffa5b2fd000000a5b2fdffffff905603000000905603ffffffa5b2fd000000
+      m_BitSize: 24
+    m_Normals:
+      m_NumItems: 8
+      m_Range: 2.6437188E-15
+      m_Start: 0
+      m_Data: 000000ffffff000000ffffff000000ffffff000000ffffff
+      m_BitSize: 24
+    m_Tangents:
+      m_NumItems: 8
+      m_Range: 0.99999803
+      m_Start: 1.964022E-06
+      m_Data: 000000ffffff000000ffffff000000ffffff000000ffffff
+      m_BitSize: 24
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 4
+      m_Data: 0f
+      m_BitSize: 1
+    m_TangentSigns:
+      m_NumItems: 8
+      m_Data:
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: -Infinity
+      m_Start: Infinity
+      m_Data:
+      m_BitSize: 24
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 6
+      m_Data: 2407
+      m_BitSize: 2
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 22.326782, y: -2.8587036, z: -0.7097204}
+    m_Extent: {x: 3.1031494, y: 3.0891724, z: 2.3841858E-07}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh:
+  m_BakedTriangleCollisionMesh:
+  m_MeshOptimized: 1

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: windows_in_black
+  m_Shader: {fileID: 4800000, guid: 00fc7cb6bbd6e9544b195ea21d631bf8, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 53719ea7c97db934cbf5734ddf3fe3c8, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: f4ecd709c1343ed4ab5155c652232338, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: a586e1d78a61a314a9142b350e51e952, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _2DReflection
+        second:
+          m_Texture: {fileID: 8900000, guid: a586e1d78a61a314a9142b350e51e952, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 0.44247168
+      data:
+        first:
+          name: _FresnelPower
+        second: 0.31517863
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0.08088237, g: 0.08088237, b: 0.08088237, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 0}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: 0.058823526, g: 0.058823526, b: 0.058823526, a: 0.5019608}

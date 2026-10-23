@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: gauges_extra
+  m_Shader: {fileID: 4800000, guid: 695e6d5ce9ac1bf4e8203a511c58673d, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 7b040eb1f5b88a44b81adc471f86ed6f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Illum
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 0.557
+      data:
+        first:
+          name: _EmissionLM
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0.25735295, g: 0.25735295, b: 0.25735295, a: 0}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 0.45198965, g: 0.48562226, b: 0.64705884, a: 1}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0.014705896, g: 0.010813159, b: 0.010813159, a: 0}

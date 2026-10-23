@@ -1,0 +1,35 @@
+namespace HutongGames.PlayMaker.Actions
+{
+	[Tooltip("Sends an Event when a Button is released.")]
+	[ActionCategory(ActionCategory.Input)]
+	public class GetButtonUp : FsmStateAction
+	{
+		[Tooltip("The name of the button. Set in the Unity Input Manager.")]
+		[RequiredField]
+		public FsmString buttonName;
+
+		[Tooltip("Event to send if the button is released.")]
+		public FsmEvent sendEvent;
+
+		[Tooltip("Set to True if the button is released.")]
+		[UIHint(UIHint.Variable)]
+		public FsmBool storeResult;
+
+		public override void Reset()
+		{
+			buttonName = "Fire1";
+			sendEvent = null;
+			storeResult = null;
+		}
+
+		public override void OnUpdate()
+		{
+			bool keyUp = cInput.GetKeyUp(buttonName.Value);
+			if (keyUp)
+			{
+				base.Fsm.Event(sendEvent);
+			}
+			storeResult.Value = keyUp;
+		}
+	}
+}

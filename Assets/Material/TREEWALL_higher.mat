@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: TREEWALL_higher
+  m_Shader: {fileID: 4800000, guid: f0241515c2741e541ab82405766513d1, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 3d09aed8b7187164c8b11d05cfa25862, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 1, y: 1}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 848960e91aaedc14083723540bd80316, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 1, y: 1}
+      data:
+        first:
+          name: _GlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _TranslucencyMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ShadowOffset
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 0.09
+      data:
+        first:
+          name: _Shininess
+        second: 1
+      data:
+        first:
+          name: _SquashAmount
+        second: 0
+      data:
+        first:
+          name: _BaseLight
+        second: 0.625
+      data:
+        first:
+          name: _AO
+        second: 0
+      data:
+        first:
+          name: _Occlusion
+        second: 0
+      data:
+        first:
+          name: _TranslucencyViewDependency
+        second: 0.5178572
+      data:
+        first:
+          name: _ShadowStrength
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Scale
+        second: {r: 1, g: 1, b: 1, a: 0}
+      data:
+        first:
+          name: _Color
+        second: {r: 0.1451878, g: 0.1544118, b: 0.13283956, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 0.6838235, g: 0.6838235, b: 0.6838235, a: 0}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0.25735295, g: 0.25735295, b: 0.25735295, a: 0}
+      data:
+        first:
+          name: _TranslucencyColor
+        second: {r: 1, g: 1, b: 1, a: 1}

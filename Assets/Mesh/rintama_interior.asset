@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: rintama_interior
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 30
+    topology: 0
+    firstVertex: 0
+    vertexCount: 20
+    localAABB:
+      m_Center: {x: -1504.116, y: 5.9903827, z: 1171.4573}
+      m_Extent: {x: 2.1419067, y: 1.4694481, z: 2.7300415}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes:
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 1
+  m_IsReadable: 0
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer:
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 0
+    m_VertexCount: 0
+    m_Channels: []
+    m_DataSize: 0
+    _typelessdata:
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 60
+      m_Range: 6.0603833
+      m_Start: -3.9405518
+      m_Data: fafc27d5d9cffbffffb7f88b000000feffff51fc27000000ffffff0ef88b83d8cffafffffafc27d5d9cffbffff0ef88b83d8cf41db830ef88b83d8cffafffffafc27d5d9cf42db830ef88b83d8cffaffffb7f88b00000045db83b7f88b000000feffff0ef88b83d8cf41db83b7f88b000000feffff51fc2700000046db8351fc27000000ffffffb7f88b00000045db83fafc27d5d9cf42db83b7f88b00000045db830ef88b83d8cf41db8351fc2700000046db83
+      m_BitSize: 24
+    m_UV:
+      m_NumItems: 40
+      m_Range: 2.5
+      m_Start: -0.76953125
+      m_Data: 66a610cca455cc0ca4ffff9bcccca36632559ad91033739c3233f96616636626b23333003373b2cc4c6365e6f80000009919a4ff7fff66a61066e69c33f310ffffffcccca333739c3233f99959aa6626b2cd74473373b2cc8caa65e6f8cd3c4766a61033bf54cc0ca466660e9ad91033f30dcccca3663255
+      m_BitSize: 24
+    m_Normals:
+      m_NumItems: 40
+      m_Range: 2
+      m_Start: -1
+      m_Data: 000080000080000080000080000080000080000080000080000080000000000080000000000080000000000080000000000000000080000000000080000000000080000000000080000080ffffff000080ffffff000080ffffff000080ffffff000080000080000080000080000080000080000080000080
+      m_BitSize: 24
+    m_Tangents:
+      m_NumItems: 40
+      m_Range: 1.9999926
+      m_Start: -0.9999963
+      m_Data: 9d64800900009d64800900009d64800900009d64800900000000008eff7f0000008eff7f0000008eff7f0000008eff7f8eff7fffffff8eff7fffffff8eff7fffffff8eff7fffffffffffff710080ffffff710080ffffff710080ffffff7100809d64800900009d64800900009d64800900009d6480090000
+      m_BitSize: 24
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 20
+      m_Data: 00ff0f
+      m_BitSize: 1
+    m_TangentSigns:
+      m_NumItems: 40
+      m_Data: 5555555555
+      m_BitSize: 1
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: -Infinity
+      m_Start: Infinity
+      m_Data:
+      m_BitSize: 24
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 30
+      m_Data: 2008300229869c8292422bb1e6d86b304a3823
+      m_BitSize: 5
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -1.8104553, y: -1.4802856, z: 0.6503835}
+    m_Extent: {x: 1.1835022, y: 2.460266, z: 1.4694481}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh:
+  m_BakedTriangleCollisionMesh:
+  m_MeshOptimized: 1
