@@ -1011,6 +1011,7 @@
     <Compile Include="Assets\Scripts\Assembly-CSharp\MA_PlayerSpawnerControl.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\MA_SampleICustomEventReceiver.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\MA_TestUI.cs" />
+    <Compile Include="Assets\Scripts\Assembly-CSharp\MSCWorldFix.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\MainCamera.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\MasterAudio.cs" />
     <Compile Include="Assets\Scripts\Assembly-CSharp\MasterAudioBusFade.cs" />
@@ -1208,6 +1209,7 @@
     <None Include="Assets\Shader\CameraMotionBlurDX11.shader" />
     <None Include="Assets\Shader\CarPaintReflectiveBumpedSpecNoMask.shader" />
     <None Include="Assets\Shader\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Shader\CloudTransparent.shader" />
     <None Include="Assets\Shader\ColorCorrectionCurves.shader" />
     <None Include="Assets\Shader\ColorCorrectionCurvesSimple.shader" />
     <None Include="Assets\Shader\ColorCorrectionSelective.shader" />

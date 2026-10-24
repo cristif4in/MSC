@@ -156,6 +156,7 @@
     <None Include="Assets\Shader\CameraMotionBlurDX11.shader" />
     <None Include="Assets\Shader\CarPaintReflectiveBumpedSpecNoMask.shader" />
     <None Include="Assets\Shader\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Shader\CloudTransparent.shader" />
     <None Include="Assets\Shader\ColorCorrectionCurves.shader" />
     <None Include="Assets\Shader\ColorCorrectionCurvesSimple.shader" />
     <None Include="Assets\Shader\ColorCorrectionSelective.shader" />

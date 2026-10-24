@@ -1,0 +1,178 @@
+=== MSC World Fix 2026-10-24 14:32:20 ===
+unity=5.6.7f1 scene=GAME
+apply(True): sun=SUN intensity=1.75 sky=MSC Runtime Sky fog=False imageEffectsOff=0 cloudsOff=7 rainOff=10
+apply(True): sun=SUN intensity=1.75 sky=MSC Runtime Sky fog=False imageEffectsOff=0 cloudsOff=0 rainOff=0
+screenshot requested: C:/Users/cristi/Documents/msc/AssetRipper_export_20261023_104558/ExportedProject/MSC_screenshot_1.png
+apply(True): sun=SUN intensity=1.75 sky=MSC Runtime Sky fog=False imageEffectsOff=12 cloudsOff=0 rainOff=0
+--- diagnostics ---
+skybox=MSC Runtime Sky shader=Skybox/Procedural
+sun=SUN intensity=1.75
+fog=False fogColor=RGBA(0.322, 0.341, 0.434, 1.000) ambientMode=Trilight ambient=RGBA(0.620, 0.700, 0.820, 1.000)
+main camera 'CAM' pos=(0.0, 0.6, -0.4) rot=(0.0, 0.0, 0.0) clear=Depth depth=4 mask=16384 fov=60 near=0 far=1
+screen camera 'HandCamera' enabled=True clear=Depth depth=2 mask=1048576 pos=(-11.2, 1.1, 13.1)
+screen camera 'LakeSimpleReflectionSceneCamera' enabled=False clear=Skybox depth=0 mask=0 pos=(1834.9, -504.1, 567.0)
+screen camera 'LakeReflectionSceneCamera' enabled=False clear=Skybox depth=0 mask=1024 pos=(25.6, 42.7, -17.4)
+screen camera 'LakeReflectionmirror_cam' enabled=False clear=Skybox depth=0 mask=1024 pos=(-10.4, -20.9, 7.1)
+screen camera 'CAM' enabled=True clear=Depth depth=4 mask=16384 pos=(0.0, 0.6, -0.4)
+screen camera 'FPSCamera' enabled=True clear=Skybox depth=1 mask=-953303077 pos=(-11.2, 1.1, 13.1)
+screen camera 'LakeReflectionRallyTVcam1' enabled=False clear=Skybox depth=0 mask=1024 pos=(1289.2, -25.7, 799.1)
+screen camera 'LakeReflectioncam' enabled=False clear=Skybox depth=0 mask=1024 pos=(-1547.6, -24.2, 1162.9)
+ray 0 hit 0: 'komposti' layer=0 dist=1.80 point=(0.0, 0.5, 1.4) materials=[wood9 shader=Legacy Shaders/Diffuse color=RGBA(1.000, 1.000, 1.000, 1.000) mainTex=wood_0]
+ray 0 hit 1: 'treewallcoll' layer=0 dist=1080.68 point=(0.0, 0.5, 1080.3) materials=-
+ray 1 hit 0: 'treewallcoll' layer=0 dist=1080.68 point=(0.0, 7.5, 1080.3) materials=-
+ray 2 hit 0: 'LAKEBED' layer=10 dist=1055.88 point=(0.0, -6.5, 1055.5) materials=[Lakebed shader=Standard color=RGBA(0.088, 0.082, 0.077, 1.000) mainTex=lakebed]
+ray 3 hit 0: 'treewallcoll' layer=0 dist=1066.75 point=(-19.5, 0.5, 1066.4) materials=-
+ray 3 hit 1: 'Grass1' layer=10 dist=1107.84 point=(-19.5, 0.6, 1107.5) materials=[TERRAIN shader=Legacy Shaders/Diffuse Detail color=RGBA(0.838, 0.838, 0.838, 1.000) mainTex=karttapohja]
+ray 4 hit 0: 'treewallcoll' layer=0 dist=1356.49 point=(19.5, 0.5, 1356.1) materials=-
+renderers crossing the view center ray: 38
+  0 'TERRAINOUT' dist=-3158.84 size=(8005.0, 34.5, 7108.4) layer=0 materials=[TERRAIN shader=Legacy Shaders/Diffuse Detail color=RGBA(0.838, 0.838, 0.838, 1.000) mainTex=karttapohja]
+  1 'TREEWALL_HI' dist=-2225.18 size=(6025.1, 135.0, 5864.1) layer=26 materials=[TREEWALL_higher shader=Nature/Tree Creator Leaves color=RGBA(0.145, 0.154, 0.133, 1.000) mainTex=treewall3]
+  2 'Fields' dist=-2225.18 size=(6025.1, 86.0, 5864.1) layer=10 materials=[TERRAIN shader=Legacy Shaders/Diffuse Detail color=RGBA(0.838, 0.838, 0.838, 1.000) mainTex=karttapohja]
+  3 'TREES1' dist=-2176.24 size=(5190.3, 90.3, 4300.8) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  4 'TREES2' dist=-2126.93 size=(5188.1, 129.3, 4324.2) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  5 'TREEWALL_LOW' dist=-2026.52 size=(5873.0, 103.1, 5518.9) layer=26 materials=[TREEWALL_lower shader=Nature/Tree Creator Leaves color=RGBA(0.121, 0.132, 0.093, 1.000) mainTex=treewall2]
+  6 'TREES_SMALL2' dist=-2015.74 size=(5089.0, 63.7, 4125.4) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  7 'TREES_SMALL3' dist=-2014.92 size=(5100.4, 69.7, 4128.3) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  8 'TREES_MEDIUM2' dist=-2013.34 size=(5037.8, 73.4, 4112.5) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  9 'BUSHES3' dist=-2013.15 size=(4988.1, 27.6, 4101.7) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  10 'TREES_MEDIUM3' dist=-2013.08 size=(5061.1, 61.4, 4119.6) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  11 'BUSHES2' dist=-2012.48 size=(4995.6, 28.0, 4102.4) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+apply(True): sun=SUN intensity=1.75 sky=MSC Runtime Sky fog=False imageEffectsOff=12 cloudsOff=0 rainOff=0
+screenshot requested: C:/Users/cristi/Documents/msc/AssetRipper_export_20261023_104558/ExportedProject/MSC_screenshot_2.png
+apply(False): sun=SUN intensity=1.75 sky=MSC Runtime Sky fog=False imageEffectsOff=12 cloudsOff=0 rainOff=0
+apply(False): sun=SUN intensity=1.75 sky=MSC Runtime Sky fog=False imageEffectsOff=12 cloudsOff=0 rainOff=0
+--- diagnostics ---
+skybox=MSC Runtime Sky shader=Skybox/Procedural
+sun=SUN intensity=1.75
+fog=False fogColor=RGBA(0.322, 0.341, 0.434, 1.000) ambientMode=Trilight ambient=RGBA(0.620, 0.700, 0.820, 1.000)
+main camera 'CAM' pos=(0.0, 0.6, -0.4) rot=(0.0, 0.0, 0.0) clear=Depth depth=4 mask=16384 fov=60 near=0 far=1
+screen camera 'HandCamera' enabled=True clear=Depth depth=2 mask=1048576 pos=(-10.8, 1.1, 12.2)
+screen camera 'LakeSimpleReflectionSceneCamera' enabled=False clear=Skybox depth=0 mask=0 pos=(1834.9, -504.1, 567.0)
+screen camera 'LakeReflectionSceneCamera' enabled=False clear=Skybox depth=0 mask=1024 pos=(25.6, 42.7, -17.4)
+screen camera 'LakeReflectionmirror_cam' enabled=False clear=Skybox depth=0 mask=1024 pos=(-10.4, -20.9, 7.1)
+screen camera 'CAM' enabled=True clear=Depth depth=4 mask=16384 pos=(0.0, 0.6, -0.4)
+screen camera 'FPSCamera' enabled=True clear=Skybox depth=1 mask=-953303077 pos=(-10.8, 1.1, 12.2)
+screen camera 'LakeReflectionRallyTVcam1' enabled=False clear=Skybox depth=0 mask=1024 pos=(1289.2, -25.7, 799.1)
+screen camera 'LakeReflectioncam' enabled=False clear=Skybox depth=0 mask=1024 pos=(-1547.6, -24.2, 1162.9)
+ray 0 hit 0: 'komposti' layer=0 dist=1.80 point=(0.0, 0.5, 1.4) materials=[wood9 shader=Legacy Shaders/Diffuse color=RGBA(1.000, 1.000, 1.000, 1.000) mainTex=wood_0]
+ray 0 hit 1: 'treewallcoll' layer=0 dist=1080.68 point=(0.0, 0.5, 1080.3) materials=-
+ray 1 hit 0: 'treewallcoll' layer=0 dist=1080.68 point=(0.0, 7.5, 1080.3) materials=-
+ray 2 hit 0: 'LAKEBED' layer=10 dist=1055.88 point=(0.0, -6.5, 1055.5) materials=[Lakebed shader=Standard color=RGBA(0.088, 0.082, 0.077, 1.000) mainTex=lakebed]
+ray 3 hit 0: 'treewallcoll' layer=0 dist=1066.75 point=(-19.5, 0.5, 1066.4) materials=-
+ray 3 hit 1: 'Grass1' layer=10 dist=1107.84 point=(-19.5, 0.6, 1107.5) materials=[TERRAIN shader=Legacy Shaders/Diffuse Detail color=RGBA(0.838, 0.838, 0.838, 1.000) mainTex=karttapohja]
+ray 4 hit 0: 'treewallcoll' layer=0 dist=1356.49 point=(19.5, 0.5, 1356.1) materials=-
+renderers crossing the view center ray: 38
+  0 'TERRAINOUT' dist=-3158.84 size=(8005.0, 34.5, 7108.4) layer=0 materials=[TERRAIN shader=Legacy Shaders/Diffuse Detail color=RGBA(0.838, 0.838, 0.838, 1.000) mainTex=karttapohja]
+  1 'TREEWALL_HI' dist=-2225.18 size=(6025.1, 135.0, 5864.1) layer=26 materials=[TREEWALL_higher shader=Nature/Tree Creator Leaves color=RGBA(0.145, 0.154, 0.133, 1.000) mainTex=treewall3]
+  2 'Fields' dist=-2225.18 size=(6025.1, 86.0, 5864.1) layer=10 materials=[TERRAIN shader=Legacy Shaders/Diffuse Detail color=RGBA(0.838, 0.838, 0.838, 1.000) mainTex=karttapohja]
+  3 'TREES1' dist=-2176.24 size=(5190.3, 90.3, 4300.8) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  4 'TREES2' dist=-2126.93 size=(5188.1, 129.3, 4324.2) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  5 'TREEWALL_LOW' dist=-2026.52 size=(5873.0, 103.1, 5518.9) layer=26 materials=[TREEWALL_lower shader=Nature/Tree Creator Leaves color=RGBA(0.121, 0.132, 0.093, 1.000) mainTex=treewall2]
+  6 'TREES_SMALL2' dist=-2015.74 size=(5089.0, 63.7, 4125.4) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  7 'TREES_SMALL3' dist=-2014.92 size=(5100.4, 69.7, 4128.3) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  8 'TREES_MEDIUM2' dist=-2013.34 size=(5037.8, 73.4, 4112.5) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  9 'BUSHES3' dist=-2013.15 size=(4988.1, 27.6, 4101.7) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  10 'TREES_MEDIUM3' dist=-2013.08 size=(5061.1, 61.4, 4119.6) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  11 'BUSHES2' dist=-2012.48 size=(4995.6, 28.0, 4102.4) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+apply(False): sun=SUN intensity=1.75 sky=MSC Runtime Sky fog=False imageEffectsOff=12 cloudsOff=0 rainOff=0
+screenshot requested: C:/Users/cristi/Documents/msc/AssetRipper_export_20261023_104558/ExportedProject/MSC_screenshot_3.png
+apply(False): sun=SUN intensity=1.75 sky=MSC Runtime Sky fog=False imageEffectsOff=12 cloudsOff=0 rainOff=0
+apply(False): sun=SUN intensity=1.75 sky=MSC Runtime Sky fog=False imageEffectsOff=12 cloudsOff=0 rainOff=0
+apply(False): sun=SUN intensity=1.75 sky=MSC Runtime Sky fog=False imageEffectsOff=12 cloudsOff=0 rainOff=0
+--- diagnostics ---
+skybox=MSC Runtime Sky shader=Skybox/Procedural
+sun=SUN intensity=1.75
+fog=False fogColor=RGBA(0.322, 0.341, 0.434, 1.000) ambientMode=Trilight ambient=RGBA(0.620, 0.700, 0.820, 1.000)
+main camera 'CAM' pos=(0.0, 0.6, -0.4) rot=(0.0, 0.0, 0.0) clear=Depth depth=4 mask=16384 fov=60 near=0 far=1
+screen camera 'HandCamera' enabled=True clear=Depth depth=2 mask=1048576 pos=(-14.6, 1.1, 9.6)
+screen camera 'LakeSimpleReflectionSceneCamera' enabled=False clear=Skybox depth=0 mask=0 pos=(1834.9, -504.1, 567.0)
+screen camera 'LakeReflectionSceneCamera' enabled=False clear=Skybox depth=0 mask=1024 pos=(25.6, 42.7, -17.4)
+screen camera 'LakeReflectionmirror_cam' enabled=False clear=Skybox depth=0 mask=1024 pos=(-10.4, -20.9, 7.1)
+screen camera 'CAM' enabled=True clear=Depth depth=4 mask=16384 pos=(0.0, 0.6, -0.4)
+screen camera 'FPSCamera' enabled=True clear=Skybox depth=1 mask=-953303077 pos=(-14.6, 1.1, 9.6)
+screen camera 'LakeReflectionRallyTVcam1' enabled=False clear=Skybox depth=0 mask=1024 pos=(1289.2, -25.7, 799.1)
+screen camera 'LakeReflectioncam' enabled=False clear=Skybox depth=0 mask=1024 pos=(-1547.6, -24.2, 1162.9)
+ray 0 hit 0: 'komposti' layer=0 dist=1.80 point=(0.0, 0.5, 1.4) materials=[wood9 shader=Legacy Shaders/Diffuse color=RGBA(1.000, 1.000, 1.000, 1.000) mainTex=wood_0]
+ray 0 hit 1: 'treewallcoll' layer=0 dist=1080.68 point=(0.0, 0.5, 1080.3) materials=-
+ray 1 hit 0: 'treewallcoll' layer=0 dist=1080.68 point=(0.0, 7.5, 1080.3) materials=-
+ray 2 hit 0: 'LAKEBED' layer=10 dist=1055.88 point=(0.0, -6.5, 1055.5) materials=[Lakebed shader=Standard color=RGBA(0.088, 0.082, 0.077, 1.000) mainTex=lakebed]
+ray 3 hit 0: 'treewallcoll' layer=0 dist=1066.75 point=(-19.5, 0.5, 1066.4) materials=-
+ray 3 hit 1: 'Grass1' layer=10 dist=1107.84 point=(-19.5, 0.6, 1107.5) materials=[TERRAIN shader=Legacy Shaders/Diffuse Detail color=RGBA(0.838, 0.838, 0.838, 1.000) mainTex=karttapohja]
+ray 4 hit 0: 'treewallcoll' layer=0 dist=1356.49 point=(19.5, 0.5, 1356.1) materials=-
+renderers crossing the view center ray: 38
+  0 'TERRAINOUT' dist=-3158.84 size=(8005.0, 34.5, 7108.4) layer=0 materials=[TERRAIN shader=Legacy Shaders/Diffuse Detail color=RGBA(0.838, 0.838, 0.838, 1.000) mainTex=karttapohja]
+  1 'TREEWALL_HI' dist=-2225.18 size=(6025.1, 135.0, 5864.1) layer=26 materials=[TREEWALL_higher shader=Nature/Tree Creator Leaves color=RGBA(0.145, 0.154, 0.133, 1.000) mainTex=treewall3]
+  2 'Fields' dist=-2225.18 size=(6025.1, 86.0, 5864.1) layer=10 materials=[TERRAIN shader=Legacy Shaders/Diffuse Detail color=RGBA(0.838, 0.838, 0.838, 1.000) mainTex=karttapohja]
+  3 'TREES1' dist=-2176.24 size=(5190.3, 90.3, 4300.8) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  4 'TREES2' dist=-2126.93 size=(5188.1, 129.3, 4324.2) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  5 'TREEWALL_LOW' dist=-2026.52 size=(5873.0, 103.1, 5518.9) layer=26 materials=[TREEWALL_lower shader=Nature/Tree Creator Leaves color=RGBA(0.121, 0.132, 0.093, 1.000) mainTex=treewall2]
+  6 'TREES_SMALL2' dist=-2015.74 size=(5089.0, 63.7, 4125.4) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  7 'TREES_SMALL3' dist=-2014.92 size=(5100.4, 69.7, 4128.3) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  8 'TREES_MEDIUM2' dist=-2013.34 size=(5037.8, 73.4, 4112.5) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  9 'BUSHES3' dist=-2013.15 size=(4988.1, 27.6, 4101.7) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  10 'TREES_MEDIUM3' dist=-2013.08 size=(5061.1, 61.4, 4119.6) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+  11 'BUSHES2' dist=-2012.48 size=(4995.6, 28.0, 4102.4) layer=26 materials=[VEGETATION shader=Nature/Tree Soft Occlusion Leaves color=RGBA(0.441, 0.416, 0.334, 1.000) mainTex=treecollection]
+apply(False): sun=SUN intensity=1.75 sky=MSC Runtime Sky fog=False imageEffectsOff=12 cloudsOff=0 rainOff=0
+screenshot requested: C:/Users/cristi/Documents/msc/AssetRipper_export_20261023_104558/ExportedProject/MSC_screenshot_4.png
+apply(False): sun=SUN intensity=1.75 sky=MSC Runtime Sky fog=False imageEffectsOff=12 cloudsOff=0 rainOff=0
+apply(False): sun=SUN intensity=1.75 sky=MSC Runtime Sky fog=False imageEffectsOff=12 cloudsOff=0 rainOff=0
+apply(False): sun=SUN intensity=1.75 sky=MSC Runtime Sky fog=False imageEffectsOff=12 cloudsOff=0 rainOff=0
+scene changed to MainMenu
+apply(True): sun=Directional light intensity=1.3 sky=MSC Runtime Sky fog=False imageEffectsOff=0 cloudsOff=0 rainOff=0
+--- diagnostics ---
+skybox=MSC Runtime Sky shader=Skybox/Procedural
+sun=Directional light intensity=1.3
+fog=False fogColor=RGBA(0.500, 0.500, 0.500, 1.000) ambientMode=Trilight ambient=RGBA(0.620, 0.700, 0.820, 1.000)
+main camera 'Camera' pos=(0.0, 0.2, -11.8) rot=(5.0, 0.0, 0.0) clear=Skybox depth=1 mask=262145 fov=33 near=0.01 far=25.4
+screen camera 'Camera' enabled=True clear=Skybox depth=1 mask=262145 pos=(0.0, 0.2, -11.8)
+ray 0 at (375.5, 135.0, 0.0): no collider hit
+ray 1 at (375.5, 229.5, 0.0): no collider hit
+ray 2 at (375.5, 40.5, 0.0): no collider hit
+ray 3 at (112.7, 135.0, 0.0): no collider hit
+ray 4 at (638.4, 135.0, 0.0): no collider hit
+renderers crossing the view center ray: 16
+  0 'body' dist=8.86 size=(7.6, 2.2, 6.0) layer=18 materials=[CAR_MENU_PAINT shader=Standard (Specular setup) color=RGBA(0.447, 0.408, 0.090, 1.000) mainTex=body_rust]
+  1 'door_left 1' dist=8.95 size=(2.0, 1.8, 1.3) layer=18 materials=[CAR_MENU_PAINT shader=Standard (Specular setup) color=RGBA(0.447, 0.408, 0.090, 1.000) mainTex=body_rust]
+  2 'body_masse' dist=8.98 size=(7.3, 2.2, 5.8) layer=18 materials=[CAR_MASSE shader=Standard color=RGBA(1.000, 1.000, 1.000, 1.000) mainTex=body_masse]
+  3 'body 2' dist=9.20 size=(6.0, 2.2, 4.7) layer=18 materials=[ATLAS_MOTOR shader=Standard (Specular setup) color=RGBA(1.000, 1.000, 1.000, 1.000) mainTex=ATLAS_MOTORPARTS]
+  4 'panel_door_left2' dist=9.23 size=(1.4, 0.6, 0.8) layer=18 materials=[ATLAS_MOTOR shader=Standard (Specular setup) color=RGBA(1.000, 1.000, 1.000, 1.000) mainTex=ATLAS_MOTORPARTS]
+  5 'panel_door_left1' dist=9.25 size=(1.6, 0.7, 0.9) layer=18 materials=[interior_panels shader=Standard color=RGBA(1.000, 1.000, 1.000, 1.000) mainTex=interior_panels]
+  6 'body 1' dist=9.48 size=(4.9, 1.0, 4.0) layer=18 materials=[ATLAS_MOTOR shader=Standard (Specular setup) color=RGBA(1.000, 1.000, 1.000, 1.000) mainTex=ATLAS_MOTORPARTS]
+  7 'knob' dist=9.82 size=(0.2, 0.2, 0.2) layer=18 materials=[ATLAS_MOTOR shader=Standard (Specular setup) color=RGBA(1.000, 1.000, 1.000, 1.000) mainTex=ATLAS_MOTORPARTS]
+  8 'seats_driver_top' dist=10.83 size=(1.2, 1.7, 1.3) layer=18 materials=[seats shader=Legacy Shaders/Reflective/Bumped Specular color=RGBA(1.000, 1.000, 1.000, 1.000) mainTex=seats]
+  9 'seats_passenger_top' dist=11.97 size=(1.2, 1.7, 1.3) layer=18 materials=[seats shader=Legacy Shaders/Reflective/Bumped Specular color=RGBA(1.000, 1.000, 1.000, 1.000) mainTex=seats]
+  10 'door_right' dist=12.12 size=(2.0, 1.8, 1.4) layer=18 materials=[CAR_MENU_PAINT shader=Standard (Specular setup) color=RGBA(0.447, 0.408, 0.090, 1.000) mainTex=body_rust]
+  11 'exhaust_pipe' dist=12.68 size=(4.6, 0.6, 3.1) layer=18 materials=[paint 7 shader=Standard color=RGBA(0.110, 0.110, 0.110, 1.000) mainTex=NULL]
+screenshot requested: C:/Users/cristi/Documents/msc/AssetRipper_export_20261023_104558/ExportedProject/MSC_screenshot_5.png
+apply(False): sun=Directional light intensity=1.3 sky=MSC Runtime Sky fog=False imageEffectsOff=0 cloudsOff=0 rainOff=0
+--- diagnostics ---
+skybox=MSC Runtime Sky shader=Skybox/Procedural
+sun=Directional light intensity=1.3
+fog=False fogColor=RGBA(0.500, 0.500, 0.500, 1.000) ambientMode=Trilight ambient=RGBA(0.620, 0.700, 0.820, 1.000)
+main camera 'Camera' pos=(0.0, 0.2, -11.8) rot=(5.0, 0.0, 0.0) clear=Skybox depth=1 mask=262145 fov=33 near=0.01 far=25.4
+screen camera 'Camera' enabled=True clear=Skybox depth=1 mask=262145 pos=(0.0, 0.2, -11.8)
+ray 0 at (375.5, 135.0, 0.0): no collider hit
+ray 1 at (375.5, 229.5, 0.0): no collider hit
+ray 2 at (375.5, 40.5, 0.0): no collider hit
+ray 3 at (112.7, 135.0, 0.0): no collider hit
+ray 4 at (638.4, 135.0, 0.0): no collider hit
+renderers crossing the view center ray: 16
+  0 'body' dist=8.86 size=(7.6, 2.2, 6.0) layer=18 materials=[CAR_MENU_PAINT shader=Standard (Specular setup) color=RGBA(0.447, 0.408, 0.090, 1.000) mainTex=body_rust]
+  1 'door_left 1' dist=8.95 size=(2.0, 1.8, 1.3) layer=18 materials=[CAR_MENU_PAINT shader=Standard (Specular setup) color=RGBA(0.447, 0.408, 0.090, 1.000) mainTex=body_rust]
+  2 'body_masse' dist=8.98 size=(7.3, 2.2, 5.8) layer=18 materials=[CAR_MASSE shader=Standard color=RGBA(1.000, 1.000, 1.000, 1.000) mainTex=body_masse]
+  3 'body 2' dist=9.20 size=(6.0, 2.2, 4.7) layer=18 materials=[ATLAS_MOTOR shader=Standard (Specular setup) color=RGBA(1.000, 1.000, 1.000, 1.000) mainTex=ATLAS_MOTORPARTS]
+  4 'panel_door_left2' dist=9.23 size=(1.4, 0.6, 0.8) layer=18 materials=[ATLAS_MOTOR shader=Standard (Specular setup) color=RGBA(1.000, 1.000, 1.000, 1.000) mainTex=ATLAS_MOTORPARTS]
+  5 'panel_door_left1' dist=9.25 size=(1.6, 0.7, 0.9) layer=18 materials=[interior_panels shader=Standard color=RGBA(1.000, 1.000, 1.000, 1.000) mainTex=interior_panels]
+  6 'body 1' dist=9.48 size=(4.9, 1.0, 4.0) layer=18 materials=[ATLAS_MOTOR shader=Standard (Specular setup) color=RGBA(1.000, 1.000, 1.000, 1.000) mainTex=ATLAS_MOTORPARTS]
+  7 'knob' dist=9.82 size=(0.2, 0.2, 0.2) layer=18 materials=[ATLAS_MOTOR shader=Standard (Specular setup) color=RGBA(1.000, 1.000, 1.000, 1.000) mainTex=ATLAS_MOTORPARTS]
+  8 'seats_driver_top' dist=10.83 size=(1.2, 1.7, 1.3) layer=18 materials=[seats shader=Legacy Shaders/Reflective/Bumped Specular color=RGBA(1.000, 1.000, 1.000, 1.000) mainTex=seats]
+  9 'seats_passenger_top' dist=11.97 size=(1.2, 1.7, 1.3) layer=18 materials=[seats shader=Legacy Shaders/Reflective/Bumped Specular color=RGBA(1.000, 1.000, 1.000, 1.000) mainTex=seats]
+  10 'door_right' dist=12.12 size=(2.0, 1.8, 1.4) layer=18 materials=[CAR_MENU_PAINT shader=Standard (Specular setup) color=RGBA(0.447, 0.408, 0.090, 1.000) mainTex=body_rust]
+  11 'exhaust_pipe' dist=12.68 size=(4.6, 0.6, 3.1) layer=18 materials=[paint 7 shader=Standard color=RGBA(0.110, 0.110, 0.110, 1.000) mainTex=NULL]
+apply(False): sun=Directional light intensity=1.3 sky=MSC Runtime Sky fog=False imageEffectsOff=0 cloudsOff=0 rainOff=0
+screenshot requested: C:/Users/cristi/Documents/msc/AssetRipper_export_20261023_104558/ExportedProject/MSC_screenshot_6.png
+apply(False): sun=Directional light intensity=1.3 sky=MSC Runtime Sky fog=False imageEffectsOff=0 cloudsOff=0 rainOff=0
+apply(False): sun=Directional light intensity=1.3 sky=MSC Runtime Sky fog=False imageEffectsOff=0 cloudsOff=0 rainOff=0
+apply(False): sun=Directional light intensity=1.3 sky=MSC Runtime Sky fog=False imageEffectsOff=0 cloudsOff=0 rainOff=0
+apply(False): sun=Directional light intensity=1.3 sky=MSC Runtime Sky fog=False imageEffectsOff=0 cloudsOff=0 rainOff=0
+apply(True): sun=Directional light intensity=1.3 sky=MSC Runtime Sky fog=False imageEffectsOff=0 cloudsOff=0 rainOff=0

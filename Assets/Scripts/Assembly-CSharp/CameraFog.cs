@@ -1,7 +1,6 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Camera))]
-[ExecuteInEditMode]
 public class CameraFog : MonoBehaviour
 {
 	public bool Enabled;
@@ -28,37 +27,32 @@ public class CameraFog : MonoBehaviour
 
 	private bool _enabled;
 
-	private bool _loggedCamera;
-
 	private void OnPreRender()
 	{
-		Camera cam = GetComponent<Camera>();
-		if (cam != null && cam.name == "Camera")
+		if (!Application.isPlaying)
 		{
-			if (!_loggedCamera)
-			{
-				_loggedCamera = true;
-				Debug.Log("[MSC FIX] " + cam.name + " clear=" + cam.clearFlags + " skybox=" + ((RenderSettings.skybox != null) ? RenderSettings.skybox.name : "NULL"));
-			}
-			cam.clearFlags = CameraClearFlags.SolidColor;
-			cam.backgroundColor = new Color(0.19215687f, 0.3019608f, 0.4745098f, 1f);
+			return;
 		}
+
 		_startDistance = RenderSettings.fogStartDistance;
 		_endDistance = RenderSettings.fogEndDistance;
 		_mode = RenderSettings.fogMode;
 		_density = RenderSettings.fogDensity;
 		_color = RenderSettings.fogColor;
 		_enabled = RenderSettings.fog;
-		RenderSettings.fog = Enabled;
-		RenderSettings.fogStartDistance = StartDistance;
-		RenderSettings.fogEndDistance = EndDistance;
-		RenderSettings.fogMode = Mode;
-		RenderSettings.fogDensity = Density;
-		RenderSettings.fogColor = Color;
+
+		// The exported fog settings fade the world to a dark color, which looks
+		// like a mostly black screen. Keep fog off while the camera renders.
+		RenderSettings.fog = false;
 	}
 
 	private void OnPostRender()
 	{
+		if (!Application.isPlaying)
+		{
+			return;
+		}
+
 		RenderSettings.fog = _enabled;
 		RenderSettings.fogStartDistance = _startDistance;
 		RenderSettings.fogEndDistance = _endDistance;
